@@ -17,6 +17,12 @@ Variant: react
 cd client
 npm install
 ```
+At this point we can already run `npm run dev` and the client will be initilized with some sample Web App.
+
+However, the purpose of this template is to have everything set up to make a simple GET HTTP request to and Express server.
+
+Therefore, we are going to leave the client and come back when the server is finished.
+
 
 # Create server
 
@@ -144,3 +150,9 @@ npm run dev
 ```
 ### Now the server is up and running!
 And we can make requests.
+
+# Set Up client
+As said before, the client can be started with a sample Web App. 
+
+On the following steps we are going to make a request to the `home` endpoint just created.
+
